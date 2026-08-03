@@ -1,0 +1,8 @@
+CORRECT_PIN = "1130"
+
+pin = input("Enter your 4-digit PIN: ")
+
+if pin == CORRECT_PIN:
+    print("Access granted. Welcome!")
+else:
+    print("Access denied. Incorrect PIN.")
